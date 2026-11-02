@@ -1,0 +1,22 @@
+id,task,target,n_samples,n_features,title,source_url,note
+1,classification,Bankrupt?,1364,94,Company Bankruptcy Prediction,https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction,UCI Machine Learning Repository
+12,classification,ts,1004,38,Retail customers’ satisfaction with banks in Greece: A multicriteria analysis of a dataset,https://www.sciencedirect.com/science/article/pii/S2352340921001992,
+49,classification,Electric WH,229,24,Survey of socio-economic and contextual factors of households' energy consumption,https://www.sciencedirect.com/science/article/pii/S2352340915002012,
+50,classification,Energy class,324,16,Survey of socio-economic and contextual factors of households' energy consumption,https://www.sciencedirect.com/science/article/pii/S2352340915002012,
+52,classification,23.chance,211,31,Survey data on entrepreneurs' subjective plan and perceptions of the likelihood of success,https://www.sciencedirect.com/science/article/pii/S2352340916000408,
+53,classification,x6.valid,292,17,"Data on Vietnamese patients' behavior in using information sources, perceived data sufficiency and (non)optimal choice of health care provider",https://www.sciencedirect.com/science/article/pii/S2352340916302803,
+87,classification,Burned transformers 2019,3175,15,Dataset of distribution transformers for predictive maintenance,https://www.sciencedirect.com/science/article/pii/S2352340921007368,
+106,classification,IB1,126,18,Mobile app impulsive buying: A situational factors dataset analysis,https://www.sciencedirect.com/science/article/pii/S2352340923006595,
+25,regression,Sales-to-asset ratio,392,8,Data on empirical estimation of the relationship between agency costs and ownership structure in Italian listed companies (2002–2013),https://www.sciencedirect.com/science/article/pii/S2352340918304591,
+38,regression,CGPA,483,5,Datasets linking ethnic perceptions to undergraduate students learning outcomes in a Nigerian Tertiary Institution,https://www.sciencedirect.com/science/article/pii/S2352340918302798,
+39,regression,CGPA,610,8,The role of gender on academic performance in STEM-related disciplines: Data from a tertiary institution,https://www.sciencedirect.com/science/article/pii/S2352340918302579,
+51,regression,PRC,209,14,Real estate market and building energy performance: Data for a mass appraisal approach,https://www.sciencedirect.com/science/article/pii/S2352340915003224,
+66,regression,CashByAsset,961,21,Corporate governance data of 6 Asian economies (2010–2017),https://www.sciencedirect.com/science/article/pii/S2352340918308242,
+73,regression,ADR,8012,30,Hotel booking demand datasets,https://www.sciencedirect.com/science/article/pii/S2352340918315191,"Hotel booking demand, H1 (resort hotel)"
+74,regression,ADR,15866,30,Hotel booking demand datasets,https://www.sciencedirect.com/science/article/pii/S2352340918315191,"Hotel booking demand, H2 (city hotel)"
+82,regression,ROA,172,18,Multilevel assessment of restaurant profitability: Evidence with European data,https://www.sciencedirect.com/science/article/pii/S2352340920303206,
+83,regression,C,256,5,Data on Field Canals Improvement Projects for Cost Prediction Using Artificial Intelligence,https://www.sciencedirect.com/science/article/pii/S2352340920305825,
+85,regression,Chair-CEO pay gap,3028,51,"Data of CEO power, chair-CEO age dissimilarity and pay gap of Chinese listed firms",https://www.sciencedirect.com/science/article/pii/S2352340920310520,
+90,regression,ROA,363,13,A comprehensive dataset of board of directors attributes of Pakistan stock exchange listed non-financial firms,https://www.sciencedirect.com/science/article/pii/S2352340922000919,
+95,regression,House Prices,1203,57,Integrated statistical indicators from Scottish linked open government data,https://www.sciencedirect.com/science/article/pii/S2352340922009829,
+96,regression,Rejection,4402,12,Textile weaving dataset for machine learning to predict rejection and production of a weaving factory,https://www.sciencedirect.com/science/article/pii/S2352340923001130,

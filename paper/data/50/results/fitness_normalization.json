@@ -1,0 +1,87 @@
+[
+  {
+    "fold": 0,
+    "method": "minmax",
+    "performance_bounds": [
+      0.5961412980643308,
+      0.8031144114219324
+    ],
+    "diversity_bounds": [
+      0.20947490347490338,
+      0.31660231660231664
+    ],
+    "n_reference_subsets": 500,
+    "quantiles": [
+      0.01,
+      0.99
+    ]
+  },
+  {
+    "fold": 1,
+    "method": "minmax",
+    "performance_bounds": [
+      0.5563742971428456,
+      0.7865776145584532
+    ],
+    "diversity_bounds": [
+      0.22583140283140282,
+      0.3384317889317888
+    ],
+    "n_reference_subsets": 500,
+    "quantiles": [
+      0.01,
+      0.99
+    ]
+  },
+  {
+    "fold": 2,
+    "method": "minmax",
+    "performance_bounds": [
+      0.6017059300953737,
+      0.8110444828228405
+    ],
+    "diversity_bounds": [
+      0.19428571428571426,
+      0.29754826254826255
+    ],
+    "n_reference_subsets": 500,
+    "quantiles": [
+      0.01,
+      0.99
+    ]
+  },
+  {
+    "fold": 3,
+    "method": "minmax",
+    "performance_bounds": [
+      0.5743299738155362,
+      0.7851958134371159
+    ],
+    "diversity_bounds": [
+      0.21040540540540542,
+      0.3011806091806091
+    ],
+    "n_reference_subsets": 500,
+    "quantiles": [
+      0.01,
+      0.99
+    ]
+  },
+  {
+    "fold": 4,
+    "method": "minmax",
+    "performance_bounds": [
+      0.6093629072669752,
+      0.8135918150413107
+    ],
+    "diversity_bounds": [
+      0.2107807692307692,
+      0.30687179487179483
+    ],
+    "n_reference_subsets": 500,
+    "quantiles": [
+      0.01,
+      0.99
+    ]
+  }
+]

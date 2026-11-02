@@ -1,0 +1,5 @@
+# Dataset 52: per-dataset overrides picked up by scripts/run_all.sh (--config).
+# 'bio' is free text (e-mails, phone numbers, "n.a"; 149 distinct values on 211 rows):
+# label encoding would turn it into an arbitrary near-identifier, so it is removed.
+# 'name' (identifier) and 'national' (constant) are removed automatically by the loader.
+drop_columns: [bio]

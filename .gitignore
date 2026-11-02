@@ -1,0 +1,70 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv*/
+env/
+.python-version.local
+
+# --- Test and coverage artefacts ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Experiment outputs (raw runs stay local; curated results live in paper/data) ---
+results/
+!paper/data/**/results/
+*.log
+*.out
+*.npz
+lock/
+*.lock
+
+# --- Datasets (third-party data are not redistributed; see paper/datasets.csv) ---
+/data/
+/experiment_data/
+/pilot_data/
+/TestData/
+X_test.csv
+y_test.csv
+metrics.csv
+!tests/fixtures/**/*.csv
+
+# --- Locally generated figures (regenerate with paper/scripts/make_figures.py) ---
+paper/figures/
+
+# --- Manuscript drafts and private documents ---
+docs/*.pdf
+docs/*.docx
+*.docx
+*.xlsx
+manuscript/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+.env
+.env.*

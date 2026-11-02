@@ -1,0 +1,23 @@
+{
+  "title": "PruneStack: performance-diversity ensemble pruning with nested evaluation (v2.2.0)",
+  "upload_type": "software",
+  "description": "<p>PruneStack is a Python package for performance-diversity pruning of heterogeneous ensembles. A pool of 120 base models (six algorithms, each with one original model and 19 feature-subset variants, fixed hyperparameters) is pruned with the fitness alpha*P + (1 - alpha)*D using Elephant Herding Optimization, and the pruned subsets are evaluated with vote and non-negative stacking combiners inside a nested cross-validation protocol.</p><p>The <code>paper/</code> folder contains the per-dataset result files of the experiment reported in the accompanying manuscript (21 tabular datasets, 30 optimisation runs each) and the scripts that recompute all tables, statistics and figures. The source datasets are not redistributed; their sources are listed in <code>paper/datasets.csv</code>.</p>",
+  "creators": [
+    {
+      "name": "Domladovac, Marko",
+      "affiliation": "University of Zagreb, Faculty of Organization and Informatics, Varaždin, Croatia"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "2.2.0",
+  "language": "eng",
+  "keywords": [
+    "ensemble pruning",
+    "stacking",
+    "diversity",
+    "meta-learning",
+    "elephant herding optimization",
+    "nested cross-validation"
+  ]
+}

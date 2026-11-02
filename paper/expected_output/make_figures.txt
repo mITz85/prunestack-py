@@ -1,0 +1,5 @@
+[Fig 2] W/T/L = 18/0/3, median diff = +0.066   (Section 4: 18/0/3, +0.066)
+[Fig 3] Stacking: median diff at alpha 0 / 0.8 = -0.013 / +0.001, min = -0.123
+[Fig 3] Vote: median diff at alpha 0 / 0.8 = -0.050 / -0.005, min = -0.187
+        (Section 4: stacking -0.013 / +0.001, vote -0.050 / -0.005)
+[Fig 4] share range 0.23 (ds 83) to 0.80 (ds 73), median 0.53; datasets with sd > |mean|: 21/21   (Section 4: 0.23 (83) to 0.80 (73), median about 0.53)

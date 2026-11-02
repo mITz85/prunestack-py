@@ -1,0 +1,30 @@
+# Final dataset list for the manuscript (strictly clean set: 8 classification + 13 regression).
+# Used by scripts/run_all.sh via DATASETS_FILE=configs/datasets_final.txt.
+# One dataset id (= directory name under DATA_ROOT) per line; '#' starts a comment.
+# Inclusion criteria: n >= 100 rows in y_test.csv, smallest class >= 10, no time series,
+# no target leakage, non-trivial task. Exclusions and reasons: docs/manuscript_decisions.md.
+
+# --- Classification (8) ---   n, smallest class
+1     # 1364, 49
+12    # 1004, 52
+49    # 229, 21
+50    # 324, 17
+52    # 211, 32
+53    # 292, 103
+87    # 3175, 157
+106   # 126, 10
+
+# --- Regression (13) ---       n
+25    # 392
+38    # 483
+39    # 610
+51    # 209
+66    # 961
+73    # 8012  hotel booking ADR (city/resort hotel, disjoint rows from 74)
+74    # 15866 hotel booking ADR
+82    # 172
+83    # 256
+85    # 3028
+90    # 363
+95    # 1203
+96    # 4402

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PruneStack: performance-diversity ensemble pruning with nested evaluation"
+type: software
+version: 2.2.0
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/mITz85/prunestack-py"
+abstract: >-
+  PruneStack selects subsets of a heterogeneous pool of 120 base models with a
+  bi-objective fitness alpha*P + (1 - alpha)*D searched by Elephant Herding
+  Optimization, evaluates vote and stacking combiners inside a nested
+  cross-validation protocol, and extracts dataset and pool meta-features. The
+  paper/ folder contains the per-dataset results and the analysis scripts of
+  the accompanying manuscript.
+authors:
+  - family-names: Domladovac
+    given-names: Marko
+    email: marko@mitz-is.me
+    affiliation: "University of Zagreb, Faculty of Organization and Informatics, Varaždin, Croatia"
+keywords:
+  - ensemble pruning
+  - stacking
+  - diversity
+  - meta-learning
+  - elephant herding optimization
+  - nested cross-validation

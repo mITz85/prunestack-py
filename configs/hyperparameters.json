@@ -1,0 +1,46 @@
+{
+  "_description": [
+    "Fixed hyperparameters of all base models and the stacking meta-learner used by prunestack.",
+    "Base models use scikit-learn defaults; only iteration limits are raised to ensure",
+    "convergence across the dataset collection. The parameters are identical for every model",
+    "in the pool (original model and feature-subset variants); models of one algorithm",
+    "differ only in the feature subset they see. No per-dataset tuning is performed.",
+    "Reference: Domladovac (2026) - Learning to Prune: Meta-Feature Guided",
+    "Performance-Diversity Optimization for Heterogeneous Ensembles."
+  ],
+  "_version": "2.0",
+  "_sklearn_version": ">=1.9",
+  "_notes": [
+    "An empty object {} means pure scikit-learn defaults.",
+    "LogisticRegression / MLP: max_iter raised from 100 / 200 to 1000 (convergence).",
+    "HistGradientBoosting: max_iter raised from 100 to 300 boosting iterations.",
+    "RandomForestClassifier: n_estimators=100 is the scikit-learn default, stated explicitly.",
+    "ElasticNet: max_iter raised from 1000 to 2000 (coordinate descent on correlated features).",
+    "random_state is injected at runtime from the experiment seed for every estimator that accepts it.",
+    "stacking.<task>.meta_learner: nnls_mlr = multi-response linear regression with non-negative",
+    "weights (Ting & Witten, 1999); nnls = non-negative least squares (Breiman, 1996).",
+    "Alternatives: ridge, logistic (classification), categorical_nb (classification),",
+    "random_forest, hist_gradient_boosting. stacking.<task>.params are passed to scikit-learn",
+    "based meta-learners and ignored by nnls / nnls_mlr."
+  ],
+  "classification": {
+    "DecisionTreeClassifier": {},
+    "KNeighborsClassifier": {},
+    "LogisticRegression": {"max_iter": 1000},
+    "MLPClassifier": {"max_iter": 1000},
+    "HistGradientBoostingClassifier": {"max_iter": 300},
+    "RandomForestClassifier": {"n_estimators": 100}
+  },
+  "regression": {
+    "DecisionTreeRegressor": {},
+    "KNeighborsRegressor": {},
+    "Ridge": {},
+    "MLPRegressor": {"max_iter": 1000},
+    "HistGradientBoostingRegressor": {"max_iter": 300},
+    "ElasticNet": {"max_iter": 2000}
+  },
+  "stacking": {
+    "classification": {"meta_learner": "nnls_mlr", "params": {}},
+    "regression": {"meta_learner": "nnls", "params": {}}
+  }
+}
