@@ -308,7 +308,7 @@ If you use PruneStack, please cite the article and the software
   title   = {{PruneStack}: Meta-Feature Guided Performance--Diversity Pruning of Heterogeneous Ensembles},
   year    = {2026},
   version = {2.2.0},
-  doi     = {10.5281/zenodo.XXXXXXX},
+  doi     = {10.5281/zenodo.23890686},
   url     = {https://github.com/mITz85/prunestack-py}
 }
 ```
